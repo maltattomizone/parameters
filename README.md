@@ -7,5 +7,5 @@ A resolver that can replace parameters like slf4j
 * {} and '' can be used with the latter keeping the quotes post replace
 
 ```
-ParameterResolver.resolve("User '' created ticket {}", {"user id", 12312312})
+ParameterResolver.resolve("User '' created ticket {}", "user id", 12312312)
 ```
