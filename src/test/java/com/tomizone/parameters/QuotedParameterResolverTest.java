@@ -13,5 +13,5 @@
 package com.tomizone.parameters;
 
 public class QuotedParameterResolverTest {
-  // prove that quotes are replace correctly ("blah '' blah", {"blah"}) goes to "blah 'blah' blah"
+  // prove that quotes are replace correctly ("blah '' blah", "blah") goes to "blah 'blah' blah"
 }

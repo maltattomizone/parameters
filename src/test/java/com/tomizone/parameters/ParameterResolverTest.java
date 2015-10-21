@@ -14,5 +14,5 @@ package com.tomizone.parameters;
 
 public class ParameterResolverTest {
 
-  // prove that braces are replaced correctly ("blah {} blah", {"blah"}) goes to "blah blah blah"
+  // prove that braces are replaced correctly ("blah {} blah", "blah") goes to "blah blah blah"
 }
